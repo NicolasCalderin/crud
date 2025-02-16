@@ -1,0 +1,22 @@
+.containerr{
+	width:100%;
+	height:auto;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	align-items: center;
+	gap:1rem;
+	padding:2rem;
+}.containerr div img{
+width:200px;
+height:200px;
+}.containerr div{
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+	gap:1rem;
+}.containerr div p,.containerr div button{
+	width:100%;
+	text-align: center;
+}
